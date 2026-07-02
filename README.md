@@ -1,5 +1,8 @@
 # Simulador Mundial 2026
 
+[![QA](https://github.com/Lukarix76/Github_Actions_Pipeline_1/actions/workflows/qa.yml/badge.svg)](https://github.com/Lukarix76/Github_Actions_Pipeline_1/actions/workflows/qa.yml)
+[![Allure Report](https://img.shields.io/badge/Allure-Report-5A2D82)](https://lukarix76.github.io/Github_Actions_Pipeline_1/)
+
 App FastAPI con frontend estático y suite QA automatizada con `pytest`, Playwright y Allure.
 
 ## Qué hace GitHub Actions
@@ -24,13 +27,7 @@ Archivos:
 URL esperada del sitio:
 
 ```text
-https://<owner>.github.io/<repo>/
-```
-
-Si el repo se llama `Ejemplo_Github_Actions`, normalmente quedaría algo como:
-
-```text
-https://<owner>.github.io/Ejemplo_Github_Actions/
+https://lukarix76.github.io/Github_Actions_Pipeline_1/
 ```
 
 ## Ejecución local
@@ -67,3 +64,8 @@ allure generate allure-results --clean -o allure-report
 - [QA.md](./QA.md)
 - [docs/qa-simulator-run.md](./docs/qa-simulator-run.md)
 - [PROMPT_RTC_QA.md](./PROMPT_RTC_QA.md)
+
+## Enlaces
+
+- Repositorio: https://github.com/Lukarix76/Github_Actions_Pipeline_1
+- Reporte Allure publicado: https://lukarix76.github.io/Github_Actions_Pipeline_1/
